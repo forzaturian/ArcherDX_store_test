@@ -12,4 +12,3 @@ class Application:
         self.main = MainPage(self)
         self.product = ProductPage(self)
         self.cart = CartPage(self)
-        # self.report = ReportPage(self)

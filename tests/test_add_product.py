@@ -1,5 +1,3 @@
-from time import sleep
-
 
 def test_add_product(app):
     app.main.add_to_cart(0)

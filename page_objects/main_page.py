@@ -1,6 +1,5 @@
 from page_objects.base_page import BasePage
 from page_objects.locators import Locators
-from time import sleep
 
 
 class MainPage(BasePage):

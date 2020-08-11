@@ -31,14 +31,6 @@ class BasePage(object):
         a = self.find_elements(locator)
         return self.actions.move_to_element(a)
 
-
-
-    # def double_click(self, locator, key):
-    #     self.actions.move_to_element(locator)
-    #     self.actions.double_click()
-    #     self.actions.send_keys(key)
-    #     return self.actions.perform()
-
     def clear(self, locator):
         self.find_element(locator).clear()
 
